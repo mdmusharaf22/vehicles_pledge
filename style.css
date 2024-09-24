@@ -35,7 +35,7 @@
 /* hero section */
 .hero-sec-col{
     width: 100%;
-    height: auto;
+    height: 100vh;
     /* border: 1px solid red; */
     position: relative;
 }
