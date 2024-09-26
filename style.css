@@ -23,8 +23,11 @@ body{
     border: 0.2px solid black;
 }
 .nav-corner-btn:hover{
-    background-color: #060270;
-    transition: all 0.5s linear;
+    background-color: white;
+    color: black !important;
+}
+.nav-corner-btn:hover a{
+    color: black !important;
 }
 .nav-cont{
 display: flex;
@@ -73,7 +76,7 @@ align-items: center;gap: 70px;
 }
 
 .hero-content-main {
-    background-image: url('./images/hero.jpg');
+    background-image: url('./images/hero1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -467,6 +470,69 @@ swiper-slide div{
 }
 .form-input{
     height: 50px;
+}
+
+
+/* footer */
+.footer-main{
+    background-color: #060270;
+    padding: 100px;
+}
+
+.footer-media-icons{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    margin-left: 4px;
+}
+.footer-media{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #FE0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-media:hover{
+    background-color: white;
+}
+.footer-media:hover i{
+    color: black !important;
+
+}
+.footer-contact button{
+    background-color:#FE0000;
+    border: 0px solid;
+    color: white;
+    padding: 10px 20px;
+}
+.footer-contact button:hover{
+    background-color: white;
+    color: black;
+}
+.footer-contact{
+    margin-left: 7px;
+    margin-top: 40px;
+}
+.footer-link a{
+    color: white;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+}
+.footer-left{
+    padding-left: 0px;
+}
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 90px;
+}
+.footer-right p{
+    color: white;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
 }
 
 /* Responsive adjustments */
