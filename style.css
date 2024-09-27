@@ -534,7 +534,11 @@ swiper-slide div{
     text-align: center;
     font-family: "Poppins", sans-serif;
 }
-
+.footer-img{
+    background-color: white;
+    width: 70%;
+    padding: 4px 10px;
+}
 /* Responsive adjustments */
 @media (max-width: 992px) {
     .card {
