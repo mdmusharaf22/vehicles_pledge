@@ -472,6 +472,9 @@ swiper-slide div{
 
 
 /* footer */
+.footer-media{
+    color: white;
+}
 .footer-main{
     background-color: #060270;
     padding: 100px;
@@ -654,6 +657,11 @@ swiper-slide div{
         height: 400px !important;
     }
     /* footer */
+    .footer-media-icon{
+        display: flex;
+        margin-top: 30px;
+        margin-left: 4px;
+    }
     .footer-main{
         padding: 0px;
     }
@@ -661,20 +669,17 @@ swiper-slide div{
         padding: 0px 0px;
     }
     .footer-left{
-        border: 1px solid red;
-        width: 100%;
         padding-left: 0px;
     }
-    .test{
-        display: block;
-        border: 1px solid red;
-    }
+    
     .footer-media-icons{
         display: flex;
         margin-top: 30px;
         margin-left: 4px;
     }
-   
+    .footer-media{
+        color: white;
+    }
     .footer-contact button:hover{
         background-color: white;
         color: black;
@@ -690,17 +695,23 @@ swiper-slide div{
     }
    
     .footer-link{
+        margin-top: 30px !important;
         display: flex;
         flex-direction: column;
         gap: 30px;
         padding-left: 90px;
+    }
+    .footer-left{
+        margin-top: 30px !important;
     }
      .footer-img{
         background-color: white;
         width: 70%;
         padding: 4px 10px;
     }
-
+    .footer-right{
+        margin-top: 30px !important;
+    }
 }
 
 @media only screen and (max-width:575px){
