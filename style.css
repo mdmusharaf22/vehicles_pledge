@@ -236,6 +236,18 @@ fill: #0E1822;
 .mission{
     color: white;
 }
+.mission h5:hover{
+    color: white;
+}
+.mission:hover{
+    color: white;
+}
+.vission h5:hover{
+    color: white;
+}
+.vission:hover{
+    color: white;
+}
 .vission{
     color: white;
 }
@@ -391,6 +403,7 @@ swiper-slide div{
 }
 
 .slider span{
+    color: #FE0000;
     font-size: 110px;
 }
 
@@ -714,10 +727,74 @@ swiper-slide div{
     }
 }
 
-@media only screen and (max-width:575px){
+@media only screen and (max-width:640px){
+    .lets-talk{
+        display: none;
+    }
     .navlist{
-        margin-left: 0px;
         display: block;
     }
+
+    /* hero section */
+    .hero-sec-col{
+        width: 100%;
+        height: 50vh;
+        position: relative;
+    }
+   
+    .hero-content-head{
+        font-size: 20px;
+        text-align: center;
+        font-weight: 900;
+        line-height: 30px;
+        margin-left: 20px;
+    }
+    .hero-content-summary{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .hero-content-btn{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .primary-button{
+       padding: 10px;
+    }
     
+    /* choose us */
+    
+    .choose-main{
+        padding: 10px !important;
+    }
+    .choose-cards{
+        padding: 0px;
+    }
+    /* Benefits of Pledging Your Bike */
+   
+    .benefits-icon{
+        height: 170px;
+        width: 170px;
+    }
+    .offer-container{
+        padding: 10px;
+    }
+    .offer-content{
+        width: 100%;
+    }
+    .form-enq{
+        padding: 0px !important;
+    }
+    .map-cont{
+        margin-bottom: 0px !important;
+    }
+    #contact{
+        padding-bottom: 0px !important;
+    }
+    /* footer  */
+    .footer-left{
+        padding: 0px 30px !important;
+    }
+    .footer-link{
+        padding: 0px 40px !important;
+    }
 }
