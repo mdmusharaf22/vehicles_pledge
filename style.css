@@ -28,11 +28,6 @@ body{
 .nav-corner-btn:hover a{
     color: black !important;
 }
-.nav-cont{
-display: flex;
-justify-content: space-evenly;
-align-items: center;gap: 70px;
-}
 
 .navbar{
     position: fixed;
@@ -41,15 +36,10 @@ align-items: center;gap: 70px;
     width: 100%;
     z-index: 999;
 }
-.navlist{
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-}
-.navbar-nav{
+.nav-item{
     position: relative;
 }
-.navbar-nav a::after{
+.nav-item a::after{
     content: "";
     position: absolute;
     bottom: 5px;
@@ -58,7 +48,7 @@ align-items: center;gap: 70px;
     width: 0%;
     height: 2px;
 }
-.navbar-nav a:hover::after{
+.nav-item a:hover::after{
     width: 100%;
     transition: all 0.5s linear;
 }
@@ -565,11 +555,6 @@ swiper-slide div{
 }
 @media only screen and (max-width:750px){
     /* navbar */
-    .nav-cont{
-        margin-left: 0px;
-        max-width: 750px;
-        gap: 0px;
-    }
     .navlist{
         margin-left: 0px;
         display: flex;
@@ -729,10 +714,13 @@ swiper-slide div{
 
 @media only screen and (max-width:640px){
     .lets-talk{
-        display: none;
+        display: none !important;
     }
-    .navlist{
-        display: block;
+    .navbar-nav{
+        margin: 10px 10px !important;
+    }
+    .logoimg{
+        height: 40px;
     }
 
     /* hero section */
