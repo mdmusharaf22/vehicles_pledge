@@ -103,8 +103,8 @@ body{
     font-size: 30px;
     text-align: center;
     font-weight: 900;
-    line-height: 50px;
     margin-left: 20px;
+    line-height: 50px;
     color: white;
 }
 .hero-content-summary{
@@ -130,7 +130,7 @@ cursor: pointer;
 font-size: 13px;
 font-weight: bold;
 letter-spacing: 0.05rem;
-border: 1px solid #0E1822;
+border: 1px solid transparent;
 padding: 0.8rem 2.1rem;
 background-image: url("https://th.bing.com/th/id/R.4281b99082d3a0090f8308bd7bb6afa8?rik=Hwuy9hppJKExDA&riu=http%3a%2f%2fwww.solidbackgrounds.com%2fimages%2f2560x1440%2f2560x1440-red-solid-color-background.jpg&ehk=JM%2bpBbi3WsLKe%2b3IiGij7NqtvGdax7ZRx5q1iUtATRA%3d&risl=&pid=ImgRaw&r=0");
 background-color: white;
@@ -553,6 +553,11 @@ swiper-slide div{
         margin-bottom: 30px;
     }
 }
+@media only screen and (max-width:780px){
+    .navbar-nav{
+        gap: 0px !important;
+    }
+}
 @media only screen and (max-width:750px){
     /* navbar */
     .navlist{
@@ -735,7 +740,7 @@ swiper-slide div{
         text-align: center;
         font-weight: 900;
         line-height: 30px;
-        margin-left: 20px;
+        margin-left: 0px !important;
     }
     .hero-content-summary{
         margin-top: 10px;
