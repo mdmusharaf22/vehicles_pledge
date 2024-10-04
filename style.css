@@ -214,6 +214,43 @@ z-index: 0;
 fill: #0E1822;
 }
 
+
+.hero-cont {
+    position: relative;
+    height: 100%;
+  }
+
+  .hero-cont {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hero-cont-sub {
+    width: 100%;
+    height: 99vh;
+  }
+
+  .hero-cont-sub swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-cont-sub swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
 /* About us */
 .mission-vission{
     background-color: #FE0000;
