@@ -344,6 +344,14 @@ nav .navlinks_container li a:hover::after {
 .pledging-card:hover img {
     transform: scale(1.1); /* Scale the image on hover */
 }
+.pledging-cardImg{
+    height: 250px !important;
+}
+.pledging-cardImg img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
 /* Client Testimonials */
 .testimonal-main{
     display: flex;
@@ -395,17 +403,22 @@ swiper-slide div{
 
 /* What We Offer */
 .card-icon {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 10px;
+}
+.card-icon img{
+    height: 50px;
+    width: 45px;
 }
 .card-title{
-  font-weight: 400 !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
 }
 .card-height{
-    height: 250px;
+    height: 240px;
 }
-
-
+.card-height ul{
+    margin-left: -10px;
+}
 /* Our Blog */
 #blog {
     background-color: #f5f5f5;
