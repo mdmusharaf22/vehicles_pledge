@@ -9,133 +9,140 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
     integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous" />
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
-    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
-    crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style.css" />
-    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
-    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/fontawesome.min.js"
-        integrity="sha512-NeFv3hB6XGV+0y96NVxoWIkhrs1eC3KXBJ9OJiTFktvbzJ/0Kk7Rmm9hJ2/c2wJjy6wG0a0lIgehHjCTDLRwWw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./responsive.css">
 </head>
 
 <body>
   <!-- Header Section Starts Here -->
   <header>
     <div class="header_inner">
-        <div class="col">
-            <div class="logo_container">
-                <a href="./index.html">
-                    <h1 class="logo"><img src="./images/vehicles-pledge-logo.png" alt=""></h1>
-                </a>
-            </div>
+      <div class="col">
+        <div class="logo_container">
+          <a href="./index.html">
+            <h1 class="logo"><img src="./images/vehicles-pledge-logo.png" alt=""></h1>
+          </a>
         </div>
-        <div class="col" id="navbar">
-            <nav>
-                <ul class="navlinks_container">
-                    <li><a href="./index.html" class="active">Home</a></li>
-                    <li><a href="./about.html">About Us</a></li>
-                    <li><a href="./shop.html">Our Services</a></li>
-                    <li><a href="./contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
-            <button class="close_btn" id="close_menu">
-                <i class="fa-solid fa-xmark"></i>
-            </button>
+      </div>
+      <div class="col" id="navbar">
+        <nav>
+          <ul class="navlinks_container">
+            <li><a href="./index.html" class="active">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./shop.html">Our Services</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+        <button class="close_btn" id="close_menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
 
-        </div>
-        <div class="col">
-            <button class="open_btn" id="open_menu">
-                <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="col">
+        <button class="open_btn" id="open_menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="nav_buttons_container">
+          <a href="#">
+            <button class="lets_talk">
+              Let's Talk
             </button>
-            <div class="nav_buttons_container">
-                <a href="#">
-                    <button class="lets_talk">
-                        Let's Talk
-                    </button>
-                </a>
-            </div>
+          </a>
         </div>
+      </div>
     </div>
-</header>
+  </header>
 
   <!-- Hero Section Starts Here -->
   <section class="hero_section">
     <div class="hero_container">
-        <div class="swiper heroSwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="hero_slider_container">
-                        <div class="hero_slider_left">
-                            <div class="text_container">
-                                <h1>Summer Collections</h1>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sit assumenda
-                                    deleniti soluta nobis vero, excepturi eaque modi sequi quae aliquam voluptates
-                                    reiciendis dolor cum similique aperiam officiis error dolore.</p>
-                                <a href="#"><button class="shop_now_btn">Shop Now</button></a>
-                            </div>
-                        </div>
-                        <div class="hero_slider_right">
-                            <div class="img_container">
-                                <img src="./assets/img/hero/banner01.jpg" alt="heroimg">
-                            </div>
-                        </div>
-                    </div>
+      <div class="swiper heroSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="hero_slider_container">
+              <div class="hero_slider_left">
+                <div class="text_container">
+                  <h1>Fast and Flexible Loan Solutions!</h1>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sit assumenda
+                    deleniti soluta nobis vero, excepturi eaque modi sequi quae aliquam voluptates
+                    reiciendis dolor cum similique aperiam officiis error dolore.</p>
+                  <a href="#"><button class="shop_now_btn">Shop Now</button></a>
                 </div>
-                <div class="swiper-slide">
-                    <div class="hero_slider_container">
-                        <div class="hero_slider_left">
-                            <div class="text_container">
-                                <h1>Spring Collections</h1>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sit assumenda
-                                    deleniti soluta nobis vero, excepturi eaque modi sequi quae aliquam voluptates
-                                    reiciendis dolor cum similique aperiam officiis error dolore.</p>
-                                <a href="#"><button class="shop_now_btn">Shop Now</button></a>
-                            </div>
-                        </div>
-                        <div class="hero_slider_right">
-                            <div class="img_container">
-                                <img src="./assets/img/hero/banner02.jpg" alt="heroimg">
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="hero_slider_right">
+                <div class="img_container">
+                  <img src="./images/hero4.jpg" alt="heroimg">
                 </div>
-                <div class="swiper-slide">
-                    <div class="hero_slider_container">
-                        <div class="hero_slider_left">
-                            <div class="text_container">
-                                <h1>Casual Collections</h1>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sit assumenda
-                                    deleniti soluta nobis vero, excepturi eaque modi sequi quae aliquam voluptates
-                                    reiciendis dolor cum similique aperiam officiis error dolore.</p>
-                                <a href="#"><button class="shop_now_btn">Shop Now</button></a>
-                            </div>
-                        </div>
-                        <div class="hero_slider_right">
-                            <div class="img_container">
-                                <img src="./assets/img/hero/banner03.jpg" alt="heroimg">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+              </div>
             </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="hero_slider_container">
+              <div class="hero_slider_left">
+                <div class="text_container">
+                  <h1> Unlock the Possibilities!</h1>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sit assumenda
+                    deleniti soluta nobis vero, excepturi eaque modi sequi quae aliquam voluptates
+                    reiciendis dolor cum similique aperiam officiis error dolore.</p>
+                  <a href="#"><button class="shop_now_btn">Shop Now</button></a>
+                </div>
+              </div>
+              <div class="hero_slider_right">
+                <div class="img_container">
+                  <img src="./images/hero3.jpg" alt="heroimg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="hero_slider_container">
+              <div class="hero_slider_left">
+                <div class="text_container">
+                  <h1>Get Started Today!</h1>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sit assumenda
+                    deleniti soluta nobis vero, excepturi eaque modi sequi quae aliquam voluptates
+                    reiciendis dolor cum similique aperiam officiis error dolore.</p>
+                  <a href="#"><button class="shop_now_btn">Shop Now</button></a>
+                </div>
+              </div>
+              <div class="hero_slider_right">
+                <div class="img_container">
+                  <img src="./images/hero2.jpg" alt="heroimg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="hero_slider_container">
+              <div class="hero_slider_left">
+                <div class="text_container">
+                  <h1>Tailored Loans for Every Need!</h1>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sit assumenda
+                    deleniti soluta nobis vero, excepturi eaque modi sequi quae aliquam voluptates
+                    reiciendis dolor cum similique aperiam officiis error dolore.</p>
+                  <a href="#"><button class="shop_now_btn">Shop Now</button></a>
+                </div>
+              </div>
+              <div class="hero_slider_right">
+                <div class="img_container">
+                  <img src="./images/bike-1836962_1280.jpg" alt="heroimg">
+                </div>
+              </div>
+            </div>
+          </div>
+
+
         </div>
+      </div>
     </div>
-</section>
-<!-- Hero Section Ends Here -->
-  
+  </section>
+  <!-- Hero Section Ends Here -->
+
   <!-- About us -->
   <div class="container mt-5" id="abou_us">
     <div class="row">
@@ -147,7 +154,7 @@
         </div>
       </div>
 
-      <div class="col-5" style="margin-left: 80px !important;">
+      <div class="col-5 about-us-content">
         <div class="about-us">
           <p class="overall-head about-head">About Us</p>
           <p>
@@ -162,8 +169,8 @@
         <div class="mission d-flex gap-3">
           <div class="mission-logo">
             <div class="mission-vission">
-            <img src="./images/mission.png" alt="" style="height: 100%; width: 100%;">
-          </div>
+              <img src="./images/mission.png" alt="" style="height: 100%; width: 100%;">
+            </div>
           </div>
           <div class="mission-content">
             <h5 class="mb-2">
@@ -195,13 +202,13 @@
   </div>
 
   <!-- Why choose us -->
-  <div class="container-fluid mt-5 choose-main">
-    <div class="my-5">
+  <div class="container-fluid mt-5 choose-main pb-5 pt-3">
+    <div class="my-5 choose-items">
       <div class="row text-center choose-head">
         <h3 class="overall-head">Why We're the Best Choice</h3>
       </div>
-      <div class="row mt-5 choose-cards mx-2 d-flex gap-3">
-        <div class="col card choose-card">
+      <div class="row mt-5 choose-cards">
+        <div class="col-md-3 col-sm-6 col-12 card choose-card">
           <div class="d-flex ms-3">
             <div class="choose-icon mt-3">
               <img src="./images/verified.png" alt="" />
@@ -209,26 +216,27 @@
           </div>
           <div class="mt-3 mx-3 text-left">
             <h3 class="overall-head">Secure Parking</h3>
-            <p>
+            <p class="choose-para">
               We offer secure parking facilities for your vehicle during the
               loan period, ensuring its safety.
             </p>
           </div>
         </div>
-        <div class="col card choose-card">
+        <div class="col-md-3 col-sm-6 col-12 card choose-card">
           <div class="d-flex ms-3">
             <div class="choose-icon text-left mt-3">
               <img src="./images/no-credit.png" alt="" />
             </div>
           </div>
-          <div class="mt-3 text-left">
+          <div class="mt-3 mx-3 text-left">
             <h3 class="overall-head">No-Credit Check</h3>
-            <p>
-              Our loan approvals are based on your vehicle's value, not credit. Drive away with confidence, knowing we prioritize your vehicle's worth!
+            <p class="choose-para">
+              Our loan approvals are based on your vehicle's value, not credit. Drive away with confidence, knowing we
+              prioritize your vehicle's worth!
             </p>
           </div>
         </div>
-        <div class="col card choose-card">
+        <div class="col-md-3 col-sm-6 col-12 card choose-card">
           <div class="d-flex ms-3">
             <div class="choose-icon text-left mt-3">
               <img src="./images/loan.png" alt="" />
@@ -236,22 +244,23 @@
           </div>
           <div class="mt-3 mx-3 text-left ">
             <h3 class="overall-head">Instant Loan</h3>
-            <p>
+            <p class="choose-para">
               Get immediate cash disbursal within hours of submitting your
               documents and vehicle evaluation.
             </p>
           </div>
         </div>
-        <div class="col card choose-card">
+        <div class="col-md-3 col-sm-6 col-12 card choose-card">
           <div class="d-flex ms-3">
             <div class="choose-icon text-left mt-3">
-              <img src="./images/Fast Approval.png" alt=""/>
+              <img src="./images/Fast Approval.png" alt="" />
             </div>
           </div>
           <div class="mt-3 mx-3 text-left ">
             <h3 class="overall-head">Fast Approval</h3>
-            <p>
-              Get the funds you need without the hassle! Our streamlined application ensures quick decisions, often within minutes.
+            <p class="choose-para">
+              Get the funds you need without the hassle! Our streamlined application ensures quick decisions, often
+              within minutes.
             </p>
           </div>
         </div>
@@ -262,336 +271,259 @@
   <!-- Benefits of Pledging Your Bike -->
   <div class="container my-5">
     <div class="row">
-        <div class="row text-center overall-head mb-4">
-            <h3>Benefits of Pledging Your Bike</h3>
+      <div class="row text-center overall-head mb-4">
+        <h3>Benefits of Pledging Your Bike</h3>
+      </div>
+      <div class="col-md-4">
+        <div class="pledging-card">
+          <div class="pledging-cardImg">
+            <img src="./images/Instant Cash.jpg" class="card-img-top" alt="Card Image 1">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Instant Cash</h5>
+            <p class="card-text">Bank loans are financial products that allow individuals and
+              businesses to borrow money for various purposes, such as
+              purchasing a home, financing a vehicle, or funding a business
+              venture.</p>
+          </div>
         </div>
-        <div class="col-md-4">
-            <div class="pledging-card">
-                <div class="pledging-cardImg">
-                  <img src="./images/Instant Cash.jpg" class="card-img-top" alt="Card Image 1">
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Instant Cash</h5>
-                    <p class="card-text">Bank loans are financial products that allow individuals and
-                        businesses to borrow money for various purposes, such as
-                        purchasing a home, financing a vehicle, or funding a business
-                        venture.</p>
-                </div>
-            </div>
+      </div>
+      <div class="col-md-4">
+        <div class="pledging-card">
+          <div class="pledging-cardImg">
+            <img src="./images/Transparent Process.jpg" class="card-img-top" alt="Card Image 2">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Transparent Process</h5>
+            <p class="card-text">At our bank, we believe in a transparent loan process to empower
+              our customers. From the moment you express interest, we guide
+              you through each step clearly and comprehensively.</p>
+          </div>
         </div>
-        <div class="col-md-4">
-            <div class="pledging-card">
-              <div class="pledging-cardImg">
-                <img src="./images/Transparent Process.jpg" class="card-img-top" alt="Card Image 2">
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">Transparent Process</h5>
-                    <p class="card-text">At our bank, we believe in a transparent loan process to empower
-                        our customers. From the moment you express interest, we guide
-                        you through each step clearly and comprehensively.</p>
-             </div>
-            </div>
+      </div>
+      <div class="col-md-4">
+        <div class="pledging-card">
+          <div class="pledging-cardImg">
+            <img src="images/Secure Handling.jpg" class="card-img-top" alt="Card Image 3">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Secure Handling</h5>
+            <p class="card-text">Ensuring the security of your personal and financial information
+              is our top priority. We employ advanced encryption technology
+              and stringent security measures to protect your data throughout
+              the loan process.</p>
+          </div>
         </div>
-        <div class="col-md-4">
-            <div class="pledging-card">
-              <div class="pledging-cardImg">
-                <img src="images/Secure Handling.jpg" class="card-img-top" alt="Card Image 3">
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">Secure Handling</h5>
-                    <p class="card-text">Ensuring the security of your personal and financial information
-                        is our top priority. We employ advanced encryption technology
-                        and stringent security measures to protect your data throughout
-                        the loan process.</p>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-</div>
+  </div>
 
 
   <!-- Client Testimonials -->
-  <h3 class="text-center overall-head">Client Testimonials</h3>
-  <div class="testimonal-main">
-    <div class="testimonal-container">
-      <!-- <div class="row text-center"> -->
-      <!-- </div> -->
-      <div class="testimonal-row">
-        <swiper-container class="mySwiper" pagination="true" pagination-dynamic-bullets="true">
-          <swiper-slide>
-            <div class="slider">
-              <span>
-                <i class="fa-solid fa-quote-right"></i>
-              </span>
+  <div class="container-fluid testimonial-main p-5">
+    <div class="container">
+      <div class="row text-center choose-head py-3">
+        <h3 class="overall-head">Testimonials</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card text-center mb-4 testimonal-card">
+            <div class="test-card-body">
+              <h5 class="test-card-title">"The two-wheeler pledge loan in Bangalore was incredibly
+                convenient. I got the money I needed quickly without any hassle.
+                Highly recommended for anyone looking to pledge a two-wheeler
+                Bangalore."</h5>
+              <p class="card-text text-left">— Rahul M.</p>
             </div>
-            <div>
-              "The two-wheeler pledge loan in Bangalore was incredibly
-              convenient. I got the money I needed quickly without any hassle.
-              Highly recommended for anyone looking to pledge a two-wheeler
-              Bangalore."
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center mb-4 testimonal-card">
+            <div class="test-card-body">
+              <h5 class="test-card-title">"I was searching for bike finance near me and came across this
+                service. I would definitely recommend it to anyone needing a
+                bike Jayanagara."</h5>
+              <p class="card-text text-left">— Priya S.</p>
             </div>
-            <div>
-              <p>Rahul M.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center mb-4 testimonal-card">
+            <div class="test-card-body">
+              <h5 class="test-card-title">"When I needed to pledge my bike for money, this service was a
+                lifesaver. They made the entire process easy and stress-free.
+                Highly recommend for anyone looking for a bike collateral loan
+                Bangalore."</h5>
+              <p class="card-text text-left">— Vikas R.</p>
             </div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class="slider">
-              <span>
-                <i class="fa-solid fa-quote-right"></i>
-              </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card text-center mb-4 testimonal-card">
+            <div class="test-card-body">
+              <h5 class="test-card-title">"Great experience with pledging my two-wheeler The loan process
+                was straightforward, and the staff was very helpful. A must-try
+                for anyone in Bangalore."</h5>
+              <p class="card-text text-left">— Anjali K.</p>
             </div>
-            <div>
-              "I was searching for bike finance near me and came across this
-              service. The staff was very friendly and explained the process
-              thoroughly. I would definitely recommend it to anyone needing a
-              bike Jayanagara."
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center mb-4 testimonal-card">
+            <div class="test-card-body">
+              <h5 class="test-card-title">"I needed quick cash and this bike loan service was perfect. The
+                staff was professional and made the entire process smooth and
+                easy."</h5>
+              <p class="card-text text-left">— Ravi P.</p>
             </div>
-            <div>
-              <p>Priya S.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center mb-4 testimonal-card">
+            <div class="test-card-body">
+              <h5 class="test-card-title">"The bike collateral loan near me service was excellent. I got my
+                loan quickly and the staff was very helpful throughout the
+                process. Highly recommended for anyone in Bangalore."</h5>
+              <p class="card-text text-left">— Neha D.</p>
             </div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class="slider">
-              <span>
-                <i class="fa-solid fa-quote-right"></i>
-              </span>
-            </div>
-            <div>
-              "When I needed to pledge my bike for money, this service was a
-              lifesaver. They made the entire process easy and stress-free.
-              Highly recommend for anyone looking for a bike collateral loan
-              Bangalore."
-            </div>
-            <div>
-              <p>Vikas R.</p>
-            </div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class="slider">
-              <span>
-                <i class="fa-solid fa-quote-right"></i>
-              </span>
-            </div>
-            <div>
-              "Great experience with pledging my two-wheeler The loan process
-              was straightforward, and the staff was very helpful. A must-try
-              for anyone in Bangalore."
-            </div>
-            <div>
-              <p>Anjali K.</p>
-            </div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class="slider">
-              <span>
-                <i class="fa-solid fa-quote-right"></i>
-              </span>
-            </div>
-            <div>
-              "I needed quick cash and this bike loan service was perfect. The
-              staff was professional and made the entire process smooth and
-              easy."
-            </div>
-            <div>
-              <p>Ravi P.</p>
-            </div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class="slider">
-              <span>
-                <i class="fa-solid fa-quote-right"></i>
-              </span>
-            </div>
-            <div>
-              "The bike collateral loan near me service was excellent. I got my
-              loan quickly and the staff was very helpful throughout the
-              process. Highly recommended for anyone in Bangalore."
-            </div>
-            <div>
-              <p>Neha D.</p>
-            </div>
-          </swiper-slide>
-        </swiper-container>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
- 
+
+
+
   <!-- What We Offer -->
-  <div class="container-fluid mt-5 px-5">
+  <div class="container-fluid mt-5 px-5 offer-main pb-5" style="height: 100%;overflow: hidden;">
     <h3 class="text-center overall-head mb-4">What we offer</h3>
     <div class="row">
-      <div class="col-md-3 mb-4">
+      <div class="col-md-3 col-sm-6 col-12 mb-4">
         <div class="card">
-          <div class="card-body text-left card-height">
-              <div class="card-icon">
-                  <img src="./images/Personalized Support.png" alt="">
-              </div>
-              <h5 class="card-title">Personalized Support</h5>
-              <ul>
-                  <li>Dedicated loan advisors available</li>
-                  <li>Tailored solutions to fit your needs</li>
-                  <li>Ongoing assistance throughout the process</li>
-              </ul>
-          </div>
-      </div>
-      
-      </div>
-      <div class="col-md-3 mb-4">
-          <div class="card">
-              <div class="card-body text-left card-height">
-                  <div class="card-icon">
-                    <img src="./images/Park Your Vehicle.png" alt="">
-                  </div>
-                  <h5 class="card-title">Park Your Vehicle</h5>
-                  <ul>
-                      <li>Secured parking for vehicles</li>
-                      <li>Shaded areas for protection</li>
-                      <li>Safe environment during loan repayment</li>
-                  </ul>
-              </div>
-          </div>
-      </div>
-      <div class="col-md-3 mb-4">
-          <div class="card">
-              <div class="card-body text-left card-height">
-                  <div class="card-icon">
-                    <img src="./images/Flexible Repayment Option.png" alt="">
-                  </div>
-                  <h5 class="card-title">Flexible Repayment Option</h5>
-                  <ul>
-                      <li>3 months repayment period</li>
-                      <li>Customizable payment plans</li>
-                      <li>No penalties for early repayment</li>
-                  </ul>
-              </div>
-          </div>
-      </div>
-      <div class="col-md-3 mb-4">
-          <div class="card">
-              <div class="card-body text-left card-height">
-                  <div class="card-icon">
-                      <img src="./images/Competitive Rates.png" alt="">
-                  </div>
-                  <h5 class="card-title">Competitive Rates</h5>
-                  <ul>
-                      <li>Low interest rates</li>
-                      <li>Transparent pricing</li>
-                      <li>Better rates than competitors</li>
-                  </ul>
-              </div>
-          </div>
-      </div>
-  </div>
-  <div class="row">
-      <div class="col-md-3 mb-4">
-          <div class="card">
-              <div class="card-body text-left card-height">
-                  <div class="card-icon">
-                    <img src="./images/Transparent Process.png" alt="">
-                  </div>
-                  <h5 class="card-title">Transparent Process</h5>
-                  <ul>
-                      <li>No hidden fees</li>
-                      <li>Clear terms and conditions</li>
-                      <li>Understandable loan process</li>
-                  </ul>
-              </div>
-          </div>
-      </div>
-      <div class="col-md-3 mb-4">
-          <div class="card">
-              <div class="card-body text-left card-height">
-                  <div class="card-icon">
-                    <img src="./images/Secure Transactions.png" alt="">
-                  </div>
-                  <h5 class="card-title">Secure Transactions</h5>
-                  <ul>
-                      <li>High security for parked vehicles</li>
-                      <li>Monitored parking facilities</li>
-                      <li>Insurance options available</li>
-                  </ul>
-              </div>
-          </div>
-      </div>
-      <div class="col-md-3 mb-4">
-          <div class="card">
-              <div class="card-body text-left card-height">
-                  <div class="card-icon">
-                    <img src="./images/Exceptional Service.png" alt="">
-                  </div>
-                  <h5 class="card-title">Exceptional Service</h5>
-                  <ul>
-                      <li>Dedicated customer support</li>
-                      <li>Personalized assistance</li>
-                      <li>Feedback-driven improvements</li>
-                  </ul>
-              </div>
-          </div>
-      </div>
-      <div class="col-md-3 mb-4">
-          <div class="card">
-              <div class="card-body text-left card-height">
-                  <div class="card-icon">
-                    <img src="./images/Additional Benefits.png" alt="">
-                  </div>
-                  <h5 class="card-title">Additional Benefits</h5>
-                  <ul>
-                      <li>Special discounts for loyal customers</li>
-                      <li>Referral bonuses available</li>
-                      <li>Access to financial advice</li>
-                  </ul>
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
-  
-
-   <!-- Enquiry Form -->
-   <section id="contact" class="py-5" style="margin-top: 50px;">
-     <h3 class="text-center overall-head">Contact Us</h3>
-     <p class="text-center">Your inquiries are important to us, and we look forward to assisting you.</p>
-    <div class="container form-enq" style="padding: 50px;">
-      <div class="row gx-0">
-
-        <!-- Enquiry Form -->
-        <div class="col-lg-6 mb-4" >
-          <div class="card h-100 form-body">
-            <div class="card-body">
-              <h3 class="card-title overall-head mb-4">Enquiry Form</h3>
-              <form id="enquiryForm">
-                <div class="mb-4">
-                  <input type="text" class="form-control form-input" id="fullName" required placeholder="Full Name">
-                </div>
-                <div class="mb-4">
-                  <input type="tel" class="form-control form-input" id="mobileNumber" required placeholder="Mobile Number">
-                </div>
-                <div class="mb-4">
-                  <input type="email" class="form-control form-input" id="email" required placeholder="Email Address">
-                </div>
-                <div class="mb-4">
-                  <textarea class="form-control" id="message" rows="3" required placeholder="Message"></textarea>
-                </div>
-                <button type="submit" class="btn" style="background-color:#FE0000; color: white;">Submit</button>
-              </form>
+          <div class="offer-card-body text-left card-height">
+            <div class="card-icon">
+              <img src="./images/Personalized Support.png" alt="">
             </div>
+            <h5 class="card-title">Personalized Support</h5>
+            <ul class="offer-list">
+              <li>Dedicated loan advisors available</li>
+              <li>Tailored solutions to fit your needs</li>
+            </ul>
           </div>
         </div>
-
-        <!-- Google Map -->
-        <div class="col-lg-6 mb-4 map-cont">
-          <div class="h-100 map" >
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.846707757926!2d77.5898203745457!3d12.917572216061597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1552b3859be9%3A0x7088166233810250!2sVehiclespledge.in%20%7C%20Bike%20%26%20Scooter%20Pledge%20Loans%20Bangalore!5e0!3m2!1sen!2sin!4v1720713740602!5m2!1sen!2sin"
-              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col-md-3 col-sm-6 col-12 mb-4">
+        <div class="card">
+          <div class="offer-card-body text-left card-height">
+            <div class="card-icon">
+              <img src="./images/Park Your Vehicle.png" alt="">
+            </div>
+            <h5 class="card-title">Park Your Vehicle</h5>
+            <ul class="offer-list">
+              <li>Secured parking for vehicles</li>
+              <li>Shaded areas for protection</li>
+              <li>Safe environment during loan repayment</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-12 mb-4">
+        <div class="card">
+          <div class="offer-card-body text-left card-height">
+            <div class="card-icon">
+              <img src="./images/Flexible Repayment Option.png" alt="">
+            </div>
+            <h5 class="card-title">Flexible Repayment Option</h5>
+            <ul class="offer-list">
+              <li>3 months repayment period</li>
+              <li>Customizable payment plans</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-12 mb-4">
+        <div class="card">
+          <div class="offer-card-body text-left card-height">
+            <div class="card-icon">
+              <img src="./images/Competitive Rates.png" alt="">
+            </div>
+            <h5 class="card-title">Competitive Rates</h5>
+            <ul class="offer-list">
+              <li>Low interest rates</li>
+              <li>Transparent pricing</li>
+              <li>Better rates than competitors</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-  </section>
-
+    <div class="row">
+      <div class="col-md-3 col-sm-6 col-12 mb-4">
+        <div class="card">
+          <div class="offer-card-body text-left card-height">
+            <div class="card-icon">
+              <img src="./images/Transparent Process.png" alt="">
+            </div>
+            <h5 class="card-title">Transparent Process</h5>
+            <ul class="offer-list">
+              <li>No hidden fees</li>
+              <li>Clear terms and conditions</li>
+              <li>Understandable loan process</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-12 mb-4">
+        <div class="card">
+          <div class="offer-card-body text-left card-height">
+            <div class="card-icon">
+              <img src="./images/Secure Transactions.png" alt="">
+            </div>
+            <h5 class="card-title">Secure Transactions</h5>
+            <ul class="offer-list">
+              <li>High security for parked vehicles</li>
+              <li>Monitored parking facilities</li>
+              <li>Insurance options available</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-12 mb-4">
+        <div class="card">
+          <div class="offer-card-body text-left card-height">
+            <div class="card-icon">
+              <img src="./images/Exceptional Service.png" alt="">
+            </div>
+            <h5 class="card-title">Exceptional Service</h5>
+            <ul class="offer-list">
+              <li>Dedicated customer support</li>
+              <li>Personalized assistance</li>
+              <li>Feedback-driven improvements</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-12 mb-4">
+        <div class="card">
+          <div class="offer-card-body text-left card-height">
+            <div class="card-icon">
+              <img src="./images/Additional Benefits.png" alt="">
+            </div>
+            <h5 class="card-title">Additional Benefits</h5>
+            <ul class="offer-list">
+              <li>Special discounts for loyal customers</li>
+              <li>Referral bonuses available</li>
+              <li>Access to financial advice</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Our Blog -->
   <section id="blog" class="py-5">
@@ -661,84 +593,114 @@
     </div>
   </section>
 
+  <!-- Enquiry Form -->
+  <section id="contact" class="" style="margin-top: 50px;">
+    <h3 class="text-center overall-head">Contact Us</h3>
+    <p class="text-center">Your inquiries are important to us, and we look forward to assisting you.</p>
+    <div class="container form-enq">
+      <div class="row gx-0">
+
+        <!-- Enquiry Form -->
+        <div class="col-lg-6 mb-4">
+          <div class="card h-100 form-body">
+            <div class="card-body">
+              <h3 class="card-title overall-head mb-4">Enquiry Form</h3>
+              <form id="enquiryForm">
+                <div class="mb-4">
+                  <input type="text" class="form-control form-input" id="fullName" required placeholder="Full Name">
+                </div>
+                <div class="mb-4">
+                  <input type="tel" class="form-control form-input" id="mobileNumber" required
+                    placeholder="Mobile Number">
+                </div>
+                <div class="mb-4">
+                  <input type="email" class="form-control form-input" id="email" required placeholder="Email Address">
+                </div>
+                <div class="mb-4">
+                  <textarea class="form-control" id="message" rows="3" required placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="btn" style="background-color:#FE0000; color: white;">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google Map -->
+        <div class="col-lg-6 mb-4 map-cont">
+          <div class="h-100 map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.846707757926!2d77.5898203745457!3d12.917572216061597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1552b3859be9%3A0x7088166233810250!2sVehiclespledge.in%20%7C%20Bike%20%26%20Scooter%20Pledge%20Loans%20Bangalore!5e0!3m2!1sen!2sin!4v1720713740602!5m2!1sen!2sin"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
   <!-- Footer Section Starts Here -->
 
   <footer>
     <div class="footer_container">
-        <div class="col">
-            <p>Our company offers a range of personalized loan solutions tailored to meet your financial needs. Whether you're looking for personal loans, home financing, or business loans, we provide competitive rates and flexible terms.</p>
-        </div>
-        <div class="col">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Our Services</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-        <div class="col">
-            <ul>
-                <li><a href="#">P</a></li>
-                <li><a href="#">Sh</a></li>
-                <li><a href="#"></a></li>
-            </ul>
-        </div>
-        <div class="col">
-            <ul>
-                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="copyright_container">
-        <p>Copyright  ©  2024</p>
-    </div>
-</footer>
-
-<!-- Footer Section Ends Here -->
-
-  <!-- footer -->
-
-  <!-- <div class="container-fluid footer-main">
-    <div class="container footer-container">
-      <div class="row gx-0">
-        <div class="col-lg-4 col-sm-6 mt-lg-0 mt-3 footer-left">
-          <div class="footer-img">
-            <img src="./images/vehicles-pledge-logo.png" alt="">
-          </div>
-          <div class="footer-media-icons">
-            <div class="footer-media">
-              <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
-            </div>
-            <div class="footer-media">
-              <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
-            </div>
-            <div class="footer-media">
-              <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
-            </div>
-            <div class="footer-media">
-              <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
-            </div>
-          </div>
-          <div class="footer-contact">
-            <button>Contact Us</button>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 footer-link" >
-          <div><a href="">Home</a></div>
-          <div><a href="">About Us</a></div>
-          <div><a href="">Our Services</a></div>
-          <div><a href="">Contact Us</a></div>
-        </div>
-        <div class="col-lg-4 col-sm-12 mt-lg-0 mt-3 footer-right">
-          <p>Our company offers a range of personalized loan solutions tailored to meet your financial needs. Whether you're looking for personal loans, home financing, or business loans, we provide competitive rates and flexible terms. </p>
-          <p>Copyright © 2024</p>
-        </div>
+      <div class="col">
+        <p>Our company offers a range of personalized loan solutions tailored to meet your financial needs. Whether
+          you're looking for personal loans, home financing, or business loans, we provide competitive rates and
+          flexible terms.</p>
+      </div>
+      <div class="col">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Services</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Term & conditions</a></li>
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul>
+          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+        </ul>
       </div>
     </div>
-  </div> -->
+    <div class="copyright_container">
+      <p>Copyright © 2024</p>
+    </div>
+  </footer>
+  <!-- Footer Section Ends Here -->
 
+
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/fontawesome.min.js"
+    integrity="sha512-NeFv3hB6XGV+0y96NVxoWIkhrs1eC3KXBJ9OJiTFktvbzJ/0Kk7Rmm9hJ2/c2wJjy6wG0a0lIgehHjCTDLRwWw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./script.js"></script>
+  <script>
+    var navbar = document.getElementById("navbar");
+    var openMenu = document.getElementById("open_menu");
+    var closeMenu = document.getElementById("close_menu");
+
+    openMenu.addEventListener("click", () => {
+        navbar.classList.add("active");
+    });
+    closeMenu.addEventListener("click", () => {
+        navbar.classList.remove("active");
+    });
+  </script>
 </body>
 
 

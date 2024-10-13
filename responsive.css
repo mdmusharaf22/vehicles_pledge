@@ -1,0 +1,247 @@
+@media only screen and (max-width:750px){ 
+    
+    /* nav and header */
+    header .header_inner .col:nth-child(2) {
+        flex: auto;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: var(--text-light);
+        min-height: 100vh;
+        z-index: 1000;
+        transform: translateX(-100%);
+        transition: all 0.5s linear;
+    }
+
+    header .header_inner .col:nth-child(2).active {
+        transform: translateX(0%);
+    }
+
+    header .header_inner .col:nth-child(3) {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    nav {
+        width: 100%;
+        height: 100%;
+    }
+
+    nav .navlinks_container {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    nav .navlinks_container li a {
+        font-size: clamp(1.3em, 2.5vw, 2.5em);
+        font-weight: bold;
+    }
+
+    .close_btn {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: transparent;
+        padding: 10px;
+        font-size: 20px;
+        outline: none;
+        border: none;
+    }
+
+    .open_btn {
+        display: block;
+        background: transparent;
+        width: 40px;
+        height: 40px;
+        border: 1px solid var(--dark-color);
+        outline: none;
+        font-size: 20px;
+    }
+
+    .nav_buttons_container {
+        display: none;
+    }
+    /* about us */
+    .about-us-image{
+        width: 100%;
+        height: 100%;
+    }
+    .about-us-image img{
+        height: 100%;
+        width: 100%;
+    }
+    .about-us-content{
+        margin-top: 20px;
+        width: 100%;
+        margin-left: 0px !important;
+        height: 100%;
+    }
+    /* why choose us */
+    .choose-card h3{
+        font-weight: 400;
+    }
+    
+    
+    /* Client Testimonials */
+  
+    .test-card-body{
+        padding: 10px;
+    }
+    .test-card-title{
+        margin-bottom: 20px;
+    }
+    .testimonal-card{
+        height: 215px;
+    }
+    .map{
+        height: 400px !important;
+    }
+
+    /* we offer */
+    .offer-card-body{
+        padding: 25px;
+    }
+
+    /* contact form  */
+    .form-enq{
+        padding: 0px;
+    }
+    /* footer */
+    .footer-media-icon{
+        display: flex;
+        margin-top: 30px;
+        margin-left: 4px;
+    }
+    .footer-main{
+        padding: 0px;
+    }
+    .footer-container{
+        padding: 0px 0px;
+    }
+    .footer-left{
+        padding-left: 0px;
+    }
+    
+    .footer-media-icons{
+        display: flex;
+        margin-top: 30px;
+        margin-left: 4px;
+    }
+    .footer-media{
+        color: white;
+    }
+    .footer-contact button:hover{
+        background-color: white;
+        color: black;
+    }
+    .footer-contact{
+        margin-left: 7px;
+        margin-top: 40px;
+    }
+    .footer-link a{
+        color: white;
+        text-decoration: none;
+        font-family: "DM Sans", sans-serif;
+    }
+   
+    .footer-link{
+        margin-top: 30px !important;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-left: 90px;
+    }
+    .footer-left{
+        margin-top: 30px !important;
+    }
+     .footer-img{
+        background-color: white;
+        width: 70%;
+        padding: 4px 10px;
+    }
+    .footer-right{
+        margin-top: 30px !important;
+    }
+}
+
+@media only screen and (max-width:640px){
+    
+    /* hero */
+    .hero_slider_container {
+        flex-direction: column-reverse;
+    }
+    .hero_slider_container .hero_slider_left,
+    .hero_slider_container .hero_slider_right {
+        width: 100%;
+    }
+    /* about us */
+    .experience{
+        display: none;
+    }
+    .mission-vission{
+        height: 50px;
+        width: 50px;
+    }
+    /* offer */
+    .offer-main{
+        padding: 10px !important;
+    }
+    .offer-main{
+        height: 240px;
+    }
+    .card-height{
+        height: 250px;
+    }
+    /* choose us */
+    
+    .choose-main{
+        padding: 10px !important;
+    }
+    .choose-card{
+        margin: 10px 0px;
+    }
+    .choose-cards{
+        padding: 0px !important;
+    }
+    .choose-icon{
+        height: 50px;
+        width: 50px;
+    }
+     /* Client Testimonials */
+  
+     .testimonal-card{
+        height: 190px;
+        padding: 0px;
+     }
+     .test-card-body{
+        padding: 25px 10px;
+    }
+    .testimonial-main{
+        padding: 0px !important;
+    }
+    .test-card-title{
+        font-size: 16px;
+    }
+    /* Benefits of Pledging Your Bike */
+    .map-cont{
+        margin-bottom: 0px !important;
+    }
+    #contact{
+        padding-bottom: 0px !important;
+    }
+    /* contact form  */
+       .form-enq{
+        padding: 10px;
+    }
+    /* footer */
+    footer .footer_container {
+        flex-direction: column;
+        align-items: start;
+        gap: 50px;
+    }
+}
