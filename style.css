@@ -323,6 +323,7 @@ color: var(--dark-color);
 .choose-items{
     width: 90%;
 }
+.choose-card{flex: 1;}
 .choose-card h3{
     font-weight: 400;
 }
@@ -391,7 +392,9 @@ color: var(--dark-color);
     position: relative;
     height: auto;
 }
-
+.text-left{
+    font-weight: 600;
+}
 .testimonal-row {
     background: #eee;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -406,7 +409,6 @@ color: var(--dark-color);
     padding: 20px;
 }
 .testimonal-card:hover{
-    height: 250px;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 .test-card-title{

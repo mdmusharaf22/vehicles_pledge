@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Service Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <style>
+        .bg-image {
+            background-image: url('./images/hero3.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            height: 100vh; /* Full height */
+        }
+        .content {
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header_inner">
+            <div class="col">
+                <div class="logo_container">
+                    <a href="./index.html">
+                        <h1 class="logo"><img src="./images/vehicles-pledge-logo.png" alt=""></h1>
+                    </a>
+                </div>
+            </div>
+            <div class="col" id="navbar">
+                <nav>
+                    <ul class="navlinks_container">
+                        <li><a href="./index.html" class="active">Home</a></li>
+                        <li><a href="#abou_us">About Us</a></li>
+                        <li><a href="">Our Services</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                </nav>
+                <button class="close_btn" id="close_menu">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+
+            </div>
+            <div class="col">
+                <button class="open_btn" id="open_menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="nav_buttons_container">
+                    <a href="#">
+                        <button class="lets_talk">
+                            Let's Talk
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- service container start-->
+<div class="container-fluid p-0" style="overflow: hidden;">
+    <div class="row no-gutters">
+        <div class="col-12 hero-image"
+            style="background-image: url('./images/bikeService.jpg'); min-height: 60vh;background-size: cover; background-position: center;">
+        </div>
+    </div>
+</div>
+<div class="container mt-4">
+    <h1>Bike Loan</h1>
+    <h5 class="mt-4">Key Features:</h5>
+    <ul class="mt-2">
+        <li class="mt-2">Tailored loan amounts to fit your budget</li>
+        <li class="mt-2">Fast processing and disbursement</li>
+        <li class="mt-2">Options for both new and used bikes</li>
+        <li class="mt-2">Flexible repayment terms to suit your needs</li>
+        <li class="mt-2">Dedicated support from our loan specialists</li>
+    </ul>
+
+    <h5 class="mt-4">Why Choose Our Bike Loans?</h5>
+    <p class="lead">At Vehicle Pledge, we understand that a bike isn’t just a mode of transport; it’s a way of life. Our bike loans are designed to make your dream ride a reality:</p>
+    <ul class="mt-2">
+        <li class="mt-2">Low-interest rates that save you money</li>
+        <li class="mt-2">Transparent terms with no hidden fees</li>
+        <li class="mt-2">Flexible payment options to match your income</li>
+    </ul>
+
+    <h5 class="mt-4">How to Apply for a Bike Loan</h5>
+    <p class="lead">Getting started with your bike loan is simple and straightforward. Here’s how:</p>
+    <ol class="mt-2">
+        <li class="mt-2">Complete our online application form with your details.</li>
+        <li class="mt-2">Submit required documents (like proof of income and ID).</li>
+        <li class="mt-2">Receive a quick loan decision—often within 24 hours!</li>
+        <li class="mt-2">Discuss your options with our knowledgeable team.</li>
+        <li class="mt-2">Ride away on your new bike!</li>
+    </ol>
+
+    <h5 class="mt-4">Customer Testimonials</h5>
+    <p class="lead">Don’t just take our word for it! Here’s what our satisfied customers are saying:</p>
+    <blockquote class="mt-2">
+        <p>"Thanks to Vehicle Pledge, I was able to get the bike of my dreams. The process was quick and hassle-free!" - Rachel K.</p>
+    </blockquote>
+    <blockquote class="mt-2">
+        <p>"The team was incredibly helpful, guiding me through the loan application step by step. Highly recommend!" - David M.</p>
+    </blockquote>
+
+    <h5 class="mt-4">Get Started Today!</h5>
+    <p class="lead">Ready to ride? Contact us today to learn more about our bike loan services or to start your application. Experience the freedom of the open road with Vehicle Pledge!</p>
+
+</div>
+<!-- service container End-->
+
+
+
+    <footer>
+        <div class="footer_container" id="contact">
+            <div class="col">
+                <p>Our company offers a range of personalized loan solutions tailored to meet your financial needs.
+                    Whether
+                    you're looking for personal loans, home financing, or business loans, we provide competitive rates
+                    and
+                    flexible terms.</p>
+            </div>
+            <div class="col">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Term & conditions</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright_container">
+            <p>Copyright © 2024</p>
+        </div>
+    </footer>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/fontawesome.min.js"
+        integrity="sha512-NeFv3hB6XGV+0y96NVxoWIkhrs1eC3KXBJ9OJiTFktvbzJ/0Kk7Rmm9hJ2/c2wJjy6wG0a0lIgehHjCTDLRwWw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+    <script>
+        var navbar = document.getElementById("navbar");
+        var openMenu = document.getElementById("open_menu");
+        var closeMenu = document.getElementById("close_menu");
+
+        openMenu.addEventListener("click", () => {
+            navbar.classList.add("active");
+        });
+        closeMenu.addEventListener("click", () => {
+            navbar.classList.remove("active");
+        });
+    </script>
+</body>
+
+
+</html>

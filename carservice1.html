@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Service Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <style>
+        .bg-image {
+            background-image: url('./images/hero3.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            height: 100vh; /* Full height */
+        }
+        .content {
+            padding: 20px;
+        }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.2); 
+            backdrop-filter: blur(10px); 
+            /* border-radius: 15px; */
+            padding: 20px; 
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header_inner">
+            <div class="col">
+                <div class="logo_container">
+                    <a href="./index.html">
+                        <h1 class="logo"><img src="./images/vehicles-pledge-logo.png" alt=""></h1>
+                    </a>
+                </div>
+            </div>
+            <div class="col" id="navbar">
+                <nav>
+                    <ul class="navlinks_container">
+                        <li><a href="./index.html" class="active">Home</a></li>
+                        <li><a href="#abou_us">About Us</a></li>
+                        <li><a href="">Our Services</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <button class="close_btn" id="close_menu">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+
+            </div>
+            <div class="col">
+                <button class="open_btn" id="open_menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="nav_buttons_container">
+                    <a href="#">
+                        <button class="lets_talk">
+                            Let's Talk
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- service container start-->
+<div class="container-fluid p-0" style="overflow: hidden;">
+    <div class="row no-gutters">
+        <div class="col-12 hero-image position-relative"
+            style="background-image: url('./images/carService.jpg'); min-height: 60vh; background-size: cover; background-position: center;">
+            <div class="glass-effect d-flex justify-content-center align-items-center" style="min-height: 60vh;">
+                <h1 class="text-center text-white">Car Loan</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-4">
+    <!-- <h1>Car Loan</h1> -->
+    <h5 class="mt-4">Key Features:</h5>
+    <ul class="mt-2">
+        <li class="mt-2">Flexible repayment options</li>
+        <li class="mt-2">Quick approval and funding</li>
+        <li class="mt-2">No hidden fees</li>
+        <li class="mt-2">Prepayment options available without penalties</li>
+        <li class="mt-2">Personalized support from our financing experts</li>
+    </ul>
+
+    <h5 class="mt-4">Why Choose Us?</h5>
+    <p class="lead">At Vehicle Pledge, we understand that every customer is unique. Our dedicated team works closely with you to assess your financial situation and provide tailored solutions that fit your budget and lifestyle. Here are a few reasons to choose our car loan services:</p>
+    <ul class="mt-2">
+        <li class="mt-2">Transparent application process with no surprises</li>
+        <li class="mt-2">Wide range of financing options to suit all budgets</li>
+        <li class="mt-2">Special discounts for first-time borrowers</li>
+    </ul>
+
+    <h5 class="mt-4">How to Apply?</h5>
+    <p class="lead">Applying for a car loan is quick and easy! Simply follow these steps:</p>
+    <ol class="mt-2">
+        <li class="mt-2">Visit our website and fill out the online application form.</li>
+        <li class="mt-2">Provide necessary documents (ID, income proof, etc.).</li>
+        <li class="mt-2">Receive a loan decision within 24 hours.</li>
+        <li class="mt-2">Discuss your options with our financing specialists.</li>
+        <li class="mt-2">Drive away in your new vehicle!</li>
+    </ol>
+
+    <h5 class="mt-4">Customer Testimonials</h5>
+    <p class="lead">Don't just take our word for it! Hear from some of our satisfied customers:</p>
+    <blockquote class="mt-2">
+        <p>"Vehicle Pledge made my car-buying experience stress-free. The team was friendly and helped me every step of the way!" - Sarah J.</p>
+    </blockquote>
+    <blockquote class="mt-2">
+        <p>"I never thought getting a car loan would be this easy. Thanks to Vehicle Pledge, I found the perfect car at a great rate!" - Mike T.</p>
+    </blockquote>
+
+    <h5 class="mt-4">Get Started Today!</h5>
+    <p class="lead">Ready to take the next step? Contact us today to learn more about our car loan services or start your application. Let us help you get on the road with confidence!</p>
+
+</div>
+
+<!-- service container -->
+
+
+
+<footer>
+    <div class="footer_container" id="contact">
+        <div class="col">
+            <p>Our company offers a range of personalized loan solutions tailored to meet your financial needs.
+                Whether
+                you're looking for personal loans, home financing, or business loans, we provide competitive rates
+                and
+                flexible terms.</p>
+        </div>
+        <div class="col">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Term & conditions</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright_container">
+        <p>Copyright © 2024</p>
+    </div>
+</footer>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/fontawesome.min.js"
+    integrity="sha512-NeFv3hB6XGV+0y96NVxoWIkhrs1eC3KXBJ9OJiTFktvbzJ/0Kk7Rmm9hJ2/c2wJjy6wG0a0lIgehHjCTDLRwWw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+<script>
+    var navbar = document.getElementById("navbar");
+    var openMenu = document.getElementById("open_menu");
+    var closeMenu = document.getElementById("close_menu");
+
+    openMenu.addEventListener("click", () => {
+        navbar.classList.add("active");
+    });
+    closeMenu.addEventListener("click", () => {
+        navbar.classList.remove("active");
+    });
+</script>
+</body>
+
+
+</html>

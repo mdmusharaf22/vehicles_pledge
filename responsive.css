@@ -85,7 +85,7 @@
     .choose-card h3{
         font-weight: 400;
     }
-    
+    .choose-cards{flex-direction: column;}
     
     /* Client Testimonials */
   
@@ -101,7 +101,9 @@
     .map{
         height: 400px !important;
     }
-
+    .section-title{
+        font-size: 2rem;
+    }
     /* we offer */
     .offer-card-body{
         padding: 25px;
@@ -198,7 +200,12 @@
         height: 250px;
     }
     /* choose us */
-    
+    .section-title{
+        font-size:1.5rem;
+    }
+    .section-subtitle{
+        font-size: 14px;
+    }
     .choose-main{
         padding: 10px !important;
     }
@@ -250,4 +257,7 @@
         min-height: 80vh; 
         background-position: top; 
     }
+    /* .hero-blog{
+        margin: 0px !important;
+    } */
 }

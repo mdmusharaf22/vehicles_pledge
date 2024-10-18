@@ -1,11 +1,11 @@
 var swiper = new Swiper(".heroSwiper", {
     spaceBetween: 30,
     centeredSlides: true,
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
-    // loop: true
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    loop: true
 });
 var swiper2 = new Swiper(".featuresSwiper", {
     spaceBetween: 0,
